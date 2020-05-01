@@ -1,0 +1,184 @@
+@media(max-width:1128px){
+  /* --------header-------- */
+  header{
+    height:50px;
+    border-bottom:none;
+    display:none;
+  }
+  .header-left ul{
+    border-bottom: none;
+  }
+  .header-left-list li{
+    line-height:50px;
+  }
+  .header-left i{
+    display:none;
+  }
+  .header-right{
+    display:none;
+  }
+  /* --------top-wrapper-------- */
+  .top-wrapper{
+    padding-top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .responsive{
+    display:block;
+    color:white;
+    font-size:40px;
+    font-weight: bolder;
+    width:80%;
+    position: absolute;
+    top:200px;
+    z-index:2;
+  }
+  .responsive-icon{
+    display:block;
+    color:white;
+    font-size:50px;
+    position: absolute;
+    left:20px;
+    top:20px;
+  }
+  .wrapper-image{
+    height:300px;
+  }
+  .wrapper-image::after{
+    height:200px;
+  }
+  .wrapper-form{
+    Top:170px;
+    position: inherit;
+    width:60%;
+  }
+  .wrapper-form h3{
+    display: none;
+  }
+  .btn-wrapper{
+    margin-top: 30px;
+  }
+  .charge{
+    display:none;
+  }
+  /* --------wrapper-text-------- */
+  .wrapper-text{
+    widows: 700px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper-text-left{
+    width:550px;
+    margin-bottom: 40px;
+  }
+  .wrapper-text-right{
+    width: 550px;
+  }
+  /* --------section 3ステップでホスティング-------- */
+  section{
+    width:700px;
+  }
+  .section-title{
+    font-size:40px;
+  }
+  .contents{
+    flex-direction: column;
+    align-items: center;
+  }
+  .check{
+    width:550px;
+  }
+/* --------section 3ステップでホスティング下部-------- */
+  .responsive-contents{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .contents-left-text{
+    width:300px;
+  }
+  .contents-left-text i{
+    margin-top: 0;
+    font-size:30px;
+  }
+  * h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .responsive-contents img{
+    width:350px;
+  }
+/* --------section 万一のときも安心です-------- */
+.contents2{
+  width:550px;
+}
+.support-text{
+  width:550px;
+  padding-right:0;
+}
+/* --------section シンプルな決済-------- */
+.check p{
+  margin-bottom: 40px;
+}
+.second{
+  padding-top: 0;
+}
+/* --------section 夢を共有する仲間が世界中に-------- */
+.check h5{
+  font-size: 40px;
+}
+.number{
+  width:150px;
+}
+.number p{
+  text-align: center;
+}
+.numbers{
+  width:550px;
+}
+/* --------section よくある質問-------- */
+.question-list li{
+  width:100%;
+}
+/* --------ホスティングの詳細はこちら-------- */
+.detail{
+  width:700px;
+}
+.details{
+  width:100%;
+}
+.detail-list{
+  width:200px;
+  box-shadow: 0 0 8px grey;
+}
+.detail-list img{
+  height:100px;
+}
+/* --------収益化してみますか？-------- */
+.bottom-wrapper{
+  width:100%;
+  height:400px;
+}
+.bottom-wrapper h1{
+  width:300px;
+  font-size: 40px;
+}
+.btn-footer{
+  width:60px;
+}
+/* --------リンク集-------- */
+nav{
+  width:90%;
+}
+/* --------フッター-------- */
+footer{
+  width:95%
+}
+
+
+}
+@media(max-width:743px){
+
+}
