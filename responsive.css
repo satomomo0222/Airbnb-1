@@ -49,9 +49,12 @@
     height:200px;
   }
   .wrapper-form{
+    box-sizing: border-box;
     Top:170px;
     position: inherit;
     width:60%;
+    padding:0;
+    margin-top:30px;
   }
   .wrapper-form h3{
     display: none;
@@ -61,6 +64,14 @@
   }
   .charge{
     display:none;
+  }
+  select{
+    width:100%;
+    border:1px solid rgb(235, 235, 235);
+    background-color: white;
+  }
+  .example1,.example2{
+    padding:8px 5px;
   }
   /* --------wrapper-text-------- */
   .wrapper-text{
@@ -98,6 +109,7 @@
 
   .contents-left-text{
     width:300px;
+    height:400px;
   }
   .contents-left-text i{
     margin-top: 0;
@@ -213,6 +225,16 @@ footer{
   .wrapper-text-right{
     width: 100%;
   }
+  select{
+    width:100%;
+    border:1px solid rgb(235, 235, 235);
+    background-color: white;
+  }
+  .example1,.example2{
+    padding:8px 5px;
+    margin:5px 0;
+    width:100%;
+  }
   /* --------section 3ステップでホスティング-------- */
   section{
     width:90%;
@@ -238,6 +260,8 @@ footer{
   .contents-left-text{
     width:100%;
     margin-top:30px;
+    margin-bottom: 0;
+    height:300px;
   }
   .contents-left-text i{
     margin-top: 0;
@@ -293,6 +317,7 @@ footer{
 }
 .numbers{
   width:100%;
+  flex-direction: column;
 }
 /* --------section よくある質問-------- */
 .question-list a{
@@ -334,7 +359,7 @@ footer{
 }
 .detail-list h6{
   margin-right:0;
-  width:80%;
+  width:300px;
   height:20px;
 }
 
@@ -367,7 +392,9 @@ footer{
 .footer-right{
   display:none;
 }
-
+.footer-left small p span{
+  display:none;
+}
 
 
 
