@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
   <title>Airbnbでお家、アパート、お部屋をシェアしよう</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -28,6 +30,11 @@
         <a href="#" class="btn start">はじめる</a>
       </li>
   </header>
+<!-- レスポンシブ -->
+  <div class="header-bottom">
+    <a href="#" class="btn responsive-bottom">はじめる</a>
+  </div>
+<!-- ここまで -->
   <div class="top-wrapper">
     <div class="wrapper-image"></div>
     <a href="#" class="responsive-icon"><i class="fab fa-airbnb"></i></a>
@@ -147,7 +154,7 @@
         <a href="#" class="link">Airbnb収入を得るまでの流れを見る</a>
       </div>
     </div>
-    <div class="contents responsive-contents">
+    <div class="contents responsive-contents responsive-contents2">
       <img src="img/4e8524b4-205e-4fdf-9f0a-f1f36905c8f6.jpg">
       <div class="contents-left-text">
         <i class="second fas fa-quote-left"></i>
@@ -212,7 +219,7 @@
             <img src="img/489faa5d-9519-48fa-aa0e-fe9673165e43.jpg">
             <h6>初期設定</h6>
             <p>ホスティング入門ガイド</p>
-            <a href="#">もっと詳しく</a>  
+            <a href="#" class="more">もっと詳しく</a>  
           </div>
         </a>
         <a href="#">
@@ -220,7 +227,7 @@
             <img src="img/b77eb430-aa14-4ceb-a832-109341f798cd.jpg">
             <h6>安全</h6>
             <p>ホストを守るAirbnbのしくみ</p>
-            <a href="#">もっと詳しく</a>  
+            <a href="#" class="more">もっと詳しく</a>  
           </div>
         </a>
         <a href="#">
@@ -228,7 +235,7 @@
             <img src="img/1ad4d764-38a6-464b-8fdd-b0f3339adf2f.jpg">
             <h6>マネープラン</h6>
             <p>Airbnbで収益を得るには</p>
-            <a href="#">もっと詳しく
+            <a href="#" class="more">もっと詳しく
             </a>  
           </div>
         </a>
@@ -296,6 +303,6 @@
 
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>

@@ -64,7 +64,7 @@
   }
   /* --------wrapper-text-------- */
   .wrapper-text{
-    widows: 700px;
+    width: 700px;
     flex-direction: column;
     align-items: center;
   }
@@ -146,15 +146,27 @@
 .detail{
   width:700px;
 }
-.details{
+.detail h2{
   width:100%;
+}
+.details{
+  width:760px;
+  height: auto;
 }
 .detail-list{
   width:200px;
   box-shadow: 0 0 8px grey;
+  height:inherit;
+  height:100%;
 }
 .detail-list img{
   height:100px;
+}
+.more{
+  display: none;
+}
+.detail a{
+  margin:0;
 }
 /* --------収益化してみますか？-------- */
 .bottom-wrapper{
@@ -166,7 +178,7 @@
   font-size: 40px;
 }
 .btn-footer{
-  width:60px;
+  width:65px;
 }
 /* --------リンク集-------- */
 nav{
@@ -180,5 +192,187 @@ footer{
 
 }
 @media(max-width:743px){
+   /* --------top-wrapper-------- */
+  .responsive{
+    top:150px;
+    width:90%;
+    font-size:32px;
+  }
+  .wrapper-image{
+    height:250px;
+  }
+  .wrapper-form{
+    width:90%;
+  }
+  .wrapper-text{
+    width: 90%;
+  }
+  .wrapper-text-left{
+    width:100%;
+  }
+  .wrapper-text-right{
+    width: 100%;
+  }
+  /* --------section 3ステップでホスティング-------- */
+  section{
+    width:90%;
+    align-items: flex-start;
+  }
+  .section-title{
+    font-size:40px;
+  }
+  .contents{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .check{
+    width:100%;
+  }
+  /* --------section 3ステップでホスティング下部-------- */
+  .responsive-contents{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    width:100%;
+  }
+
+  .contents-left-text{
+    width:100%;
+    margin-top:30px;
+  }
+  .contents-left-text i{
+    margin-top: 0;
+    font-size:20px;
+  }
+  * h4{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .responsive-contents img{
+    width:100%;
+    margin-top:30px;
+    margin-bottom:0;
+  }
+/* --------section 万一のときも安心です-------- */
+.contents2{
+  width:100%;
+}
+.support-text{
+  width:100%;
+  padding-right:0;
+}
+.support-image{
+  width:100%;
+  height:500px;
+  object-fit: cover;
+}
+/* --------section シンプルな決済-------- */
+.check p{
+  margin-bottom: 40px;
+}
+.second{
+  padding-top: 0;
+}
+.responsive-contents2{
+  flex-direction: column;
+  align-items: flex-start;
+  width:100%;
+}
+/* --------section 夢を共有する仲間が世界中に-------- */
+.number{
+  flex-direction: column;
+  align-items: flex-start;
+  width:100%;
+}
+.check h5{
+  font-size: 40px;
+  margin:10px 0 10px;
+}
+.number p{
+  text-align: center;
+  padding-bottom: 0;
+}
+.numbers{
+  width:100%;
+}
+/* --------section よくある質問-------- */
+.question-list a{
+  font-size:20px;
+}
+/* --------ホスティングの詳細はこちら-------- */
+.detail{
+  width:100%;
+  height:400px;
+  justify-content: flex-start;
+}
+.detail h2{
+  width:100%;
+}
+.details{
+  flex-direction: column;
+  width:100%;
+  height: 100px;
+}
+.details a{
+  width:100%;
+  box-sizing: border-box;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.detail-list .more{
+  display: none;
+}
+.detail-list{
+  width:100%;
+  margin-bottom:10px;
+}
+.detail-list img{
+  padding-right:30px;
+  width:100px;
+  height:100px;
+}
+.detail-list h6{
+  margin-right:0;
+  width:80%;
+  height:20px;
+}
+
+/* --------収益化してみますか？-------- */
+.bottom-wrapper{
+  width:100%;
+  height:375px;
+  margin:50px 0;
+}
+.bottom-wrapper div{
+  margin:50px;
+}
+.bottom-wrapper h1{
+  margin-bottom:50px;
+  width:80%;
+  font-size: 40px;
+}
+.btn-footer{
+  width:65px;
+}
+/* --------リンク集-------- */
+
+nav{
+  display:none;
+}
+/* --------フッター-------- */
+footer{
+  width:95%
+}
+.footer-right{
+  display:none;
+}
+
+
+
+
+
+
+
 
 }
