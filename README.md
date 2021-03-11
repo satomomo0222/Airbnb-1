@@ -1,1 +1,2 @@
-Airbnbサイトの模写
+# Airbnbサイトの模写
+模写結果：https://satomomo0222.github.io/Airbnb-1/
